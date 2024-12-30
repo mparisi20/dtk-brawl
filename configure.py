@@ -280,6 +280,16 @@ config.libs = [
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
         ],
     },
+    # The DOL
+    {
+        "lib": "sora",
+        "mw_version": config.linker_version,
+        "cflags": cflags_common,
+        "host": False,
+        "objects": [
+            Object(Matching, "sora/mt/mt_prng.cpp"),
+        ],
+    },
     # Common REL units
     {
         "lib": "REL",
@@ -295,6 +305,7 @@ config.libs = [
             Object(Matching, "home_button_icon.cpp"),
         ],
     },
+    # The RELs
     {
         "lib": "ft_captain",
         "mw_version": config.linker_version,
