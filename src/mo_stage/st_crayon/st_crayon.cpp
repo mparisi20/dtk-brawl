@@ -89,7 +89,7 @@ void stCrayon::createObj() {
     loadStageAttrParam(m_fileData, 0x1E);
     registScnAnim(static_cast<nw4r::g3d::ResFileData*>(m_fileData->getData(Data_Type_Scene, 0, 0xFFFE)), 0);
     initPosPokeTrainer(1, 0);
-    createObjPokeTrainer(m_fileData, 0x65, "PokeTrainer00", m_unk, 0);
+    createObjPokeTrainer(m_fileData, 0x65, "PokeTrainer00", m_pokeTrainerPos, 0);
 }
 
 void stCrayon::update(float deltaFrame) {
