@@ -24,6 +24,11 @@ sora/ty/ty_fig_listmng.cpp:
 	.text       start:0x800AC9DC end:0x800AD808
 	.data       start:0x80455120 end:0x80455180
 
+sora/gr/collision/gr_collision_shape_rhombus.cpp:
+	.text       start:0x80132B64 end:0x801330B8
+	.data       start:0x8045DA88 end:0x8045DAF0
+	.sdata2     start:0x805A2A24 end:0x805A2A2C
+
 sora/ac/ac_cmd_interpreter.cpp:
 	.text       start:0x80139658 end:0x8013CA1C
 	.rodata     start:0x80409520 end:0x8040964C
