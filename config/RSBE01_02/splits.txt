@@ -20,6 +20,9 @@ sora/sr/sr_common.cpp:
 sora/sr/sr_revision.cpp:
 	.text       start:0x8000C8E0 end:0x8000C8E8
 
+sora/gf/gf_3d_scene_light_resource.cpp:
+	.text       start:0x80010D38 end:0x80010D5C
+
 sora/gf/gf_archive_load_thread.cpp:
 	.text       start:0x800134C0 end:0x800134C4
 	.data       start:0x804208B0 end:0x804208F0
