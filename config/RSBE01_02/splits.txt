@@ -32,6 +32,9 @@ sora/gf/gf_archive_load_thread.cpp:
 	.data       start:0x804208B0 end:0x804208F0
 	.sdata      start:0x8059C468 end:0x8059C478
 
+sora/gf/gf_archive_file.cpp:
+	.text       start:0x80016408 end:0x8001643C
+
 sora/gf/gf_camera_controller.cpp:
 	.text       start:0x8001A3A4 end:0x8001A3AC
 	.data       start:0x80420B88 end:0x80420BA0
@@ -61,6 +64,9 @@ sora/cm/cm_stage_param.cpp:
 sora/ty/ty_fig_listmng.cpp:
 	.text       start:0x800AC9DC end:0x800AD808
 	.data       start:0x80455120 end:0x80455180
+
+sora/gr/collision/gr_collision_data.cpp:
+	.text       start:0x80110720 end:0x80110748
 
 sora/ac/ac_cmd_interpreter.cpp:
 	.text       start:0x80139658 end:0x8013CA1C
