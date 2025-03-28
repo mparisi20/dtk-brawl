@@ -303,6 +303,7 @@ config.libs = [
             Object(NonMatching, "sora/ac/ac_cmd_interpreter.cpp"),
             Object(Matching, "sora/ac/ac_anim_cmd_impl.cpp"),
             Object(Matching, "sora/ac/ac_null.cpp"),
+            Object(NonMatching, "sora/ad/ad_static_data.cpp"),
         ],
     },
     # Common REL units
