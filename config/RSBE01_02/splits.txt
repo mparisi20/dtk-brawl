@@ -50,6 +50,10 @@ sora/mt/mt_prng.cpp:
 	.sbss       start:0x805A00B8 end:0x805A00C0
 	.sdata2     start:0x805A1748 end:0x805A176C
 
+sora/st/module.cpp:
+	.text       start:0x80043B18 end:0x80043B6C
+	.data       start:0x8042AEB0 end:0x8042B598
+
 sora/ef/ef_screen_handle.cpp:
 	.text       start:0x8005E5C8 end:0x8005E5E8
 
@@ -94,11 +98,11 @@ sora/ac/ac_null.cpp:
 	.sdata      start:0x8059E718 end:0x8059E720
 	.sbss       start:0x805A0370 end:0x805A0380
 
-sora/ft_system.cpp:
+sora/ft/ft_system.cpp:
 	.text       start:0x8013D004 end:0x8013D078
 	.ctors      start:0x80406558 end:0x8040655C
 	.bss        start:0x8049EA20 end:0x8049EA30
-	.sbss       start:0x805A0380 end:0x805A0390
+	.sbss       start:0x805A0380 end:0x805A0388
 
 sora/ad/ad_static_data.cpp:
 	.text       start:0x8015B09C end:0x8015B0E0
