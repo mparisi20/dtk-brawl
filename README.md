@@ -2,8 +2,8 @@ Super Smash Bros. Brawl
 [![Build Status]][actions] [![Code Progress]][progress] [![Data Progress]][progress] [![Discord Badge]][discord]
 =============
 
-[Build Status]: https://github.com/zeldaret/tww/actions/workflows/build.yml/badge.svg
-[actions]: https://github.com/zeldaret/tww/actions/workflows/build.yml
+[Build Status]: https://github.com/doldecomp/brawl/actions/workflows/build.yml/badge.svg
+[actions]: https://github.com/doldecomp/brawl/actions/workflows/build.yml
 [Code Progress]: https://decomp.dev/doldecomp/brawl.svg?mode=shield&measure=code&label=Code
 [Data Progress]: https://decomp.dev/doldecomp/brawl.svg?mode=shield&measure=data&label=Data
 [progress]: https://decomp.dev/doldecomp/brawl
