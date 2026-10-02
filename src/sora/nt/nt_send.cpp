@@ -11,7 +11,6 @@
 
 NtSend* g_NtSend;
 
-// NONMATCHING regswap in unrolled for loop
 void NtSend::create() {
     g_NtSend = this;
     m_pktBuffer = static_cast<NtPacketArrPtr>(
@@ -21,8 +20,13 @@ void NtSend::create() {
     memset(m_pktBuffer, 0, 4);
     NtPacketArrPtr pktPtr = m_pktBuffer;
     for (u32 i = 0; i < Capacity; i++) {
+#ifdef MATCHING
+        (*pktPtr)[i].rawData = reinterpret_cast<NtPacketData*>(
+            reinterpret_cast<u32>(m_pktMemory.m_buf) + i * sizeof(NtPacketData));
+#else
         (*pktPtr)[i].rawData =
             i + static_cast<NtPacketData*>(m_pktMemory.m_buf);
+#endif
     }
     clearSendBuffer();
     OSInitMutex(&m_mutex);
